@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.gift-box {
+    font-size: 20vw;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.gift-box:hover {
+    transform: scale(1.1);
+}
+
+#countdown {
+    font-size: 18vw;
+    color: white;
+    margin-top: 20px;
+}
+
+#message {
+    font-size: 6vw;
+    color: white;
+    margin-top: 30px;
+}
+
+#message2 {
+    font-size: 4vw;
+    color: #ccc;
+    margin-top: 15px;
+}
+
+/* Make text size reasonable on very large screens */
+@media (min-width: 768px) {
+    #countdown {
+        font-size: 100px;
+    }
+
+    #message {
+        font-size: 48px;
+    }
+
+    #message2 {
+        font-size: 32px;
+    }
+
+    .gift-box {
+        font-size: 150px;
+    }
+}
