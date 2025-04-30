@@ -18,7 +18,7 @@ giftBox.addEventListener("click", () => {
             countdownEl.textContent = count;
         } else {
             clearInterval(interval);
-            messageEl.textContent = "🤍🎉Ad günün mübarək ! ! ! 🎉🤍";
+            messageEl.textContent = "🤍🎉Ad günün mübarək Ata! ! ! 🎉🤍";
             message2.textContent="Bu da mənim tərzimdə təbrik😁❤️"
             countdownEl.style.display = "none";
         }
