@@ -18,8 +18,8 @@ giftBox.addEventListener("click", () => {
             countdownEl.textContent = count;
         } else {
             clearInterval(interval);
-            messageEl.textContent = "🤍🎉Ad günün mübarək Ata! ! ! 🎉🤍";
-            message2.textContent="Bu da mənim tərzimdə təbrik😁❤️"
+            messageEl.textContent = "❤️🎉Happy birthday Fati! ! ! 🎉❤️";
+            message2.textContent = "Bu xüsusi gündə sənə xoşbəxtlik, can sağlığı arzulayıram.Həyatın hər günündə yaxşılıqlar sənin üçün olsun, arzuların gerçək olsun.Yeni yaşın sənə çoxlu yaxşılıqlar gətirsin! By İsgəndər)❤️"
             countdownEl.style.display = "none";
         }
     }, 1000);
